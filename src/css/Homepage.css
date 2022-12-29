@@ -1,0 +1,24 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.home-h1 {
+  font-size: 60px;
+  margin-top: 10%;
+}
+
+.home-img {
+  border-radius: 50%;
+  background-color: white;
+  margin: 30px;
+}
+
+.home-text {
+  text-decoration: underline;
+}
