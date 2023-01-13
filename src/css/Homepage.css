@@ -4,21 +4,30 @@
   color: white;
   justify-content: center;
   align-items: center;
-  position: relative;
+  /* horizontally */
+  width: 100%;
+  margin: auto;
+  /* vertically */
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
   font-family: "IBM Plex Mono", monospace;
 }
 
-.home-h1 {
-  font-size: 60px;
-  margin-top: 10%;
+.home-introduce {
+  font-size: 300%;
+  font-weight: bold;
 }
 
 .home-img {
   border-radius: 50%;
   background-color: white;
   margin: 30px;
+  height: 30%;
+  width: 30%;
 }
 
 .home-text {
+  font-size: 60%;
   text-decoration: underline;
 }

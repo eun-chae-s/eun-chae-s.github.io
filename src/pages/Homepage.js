@@ -1,30 +1,31 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import computer from "../images/computer.png";
 import "../css/Homepage.css";
 
 function Homepage() {
-  const textload = () => {
-    setTimeout(() => {
-      "Hi, I'm Rachel🤗";
-      "안녕하세요, 레이첼입니다🤗";
-      "你好，我是Rachel🤗";
-      "Salut, je suis Rachel🤗";
-    });
-  };
+  const greetings = [
+    "Hi, I'm Rachel🤗",
+    "안녕하세요, 레이첼입니다🤗",
+    "你好，我是Rachel🤗",
+    "je m'appelle Rachel🤗",
+  ];
+
+  const [index, setIndex] = useState(0);
+  useEffect(() => {
+    const intervalId = setInterval(
+      () => setIndex((index) => (index === 3 ? 0 : index + 1)),
+      3000
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
 
   return (
     <div className="homepage">
       {/* Multiple text animation, resource: https://www.youtube.com/watch?v=nxoHR9lltK0 */}
       <div className="home-slide">
-        <span className="home-introduce">"Hi, I'm Rachel🤗"</span>
+        <span className="home-introduce">{greetings[index]}</span>
       </div>
-      <img
-        className="home-img"
-        src={computer}
-        height="15%"
-        width="15%"
-        alt="Avatar with Computer"
-      ></img>
+      <img className="home-img" src={computer} alt="Avatar with Computer"></img>
       <text className="home-text">Click the icon to continue!</text>
     </div>
   );
