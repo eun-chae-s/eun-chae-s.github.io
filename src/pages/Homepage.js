@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import computer from "../images/computer.png";
 import "../css/Homepage.css";
+import { Link } from "react-router-dom";
 
 function Homepage() {
   const greetings = [
@@ -25,8 +26,15 @@ function Homepage() {
       <div className="home-slide">
         <span className="home-introduce">{greetings[index]}</span>
       </div>
-      <img className="home-img" src={computer} alt="Avatar with Computer"></img>
-      <text className="home-text">Click the icon to continue!</text>
+      <img
+        className="home-img"
+        src={computer}
+        alt="Avatar with Computer"
+        onClick={() => {}}
+      ></img>
+      <Link to={`about`}>
+        <text className="home-text">Click the icon to continue!</text>
+      </Link>
     </div>
   );
 }

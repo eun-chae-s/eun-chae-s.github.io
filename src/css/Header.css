@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home-icon {
+  border-radius: 50%;
+  background-color: white;
+  margin: 10px;
+  height: 70px;
+  width: 70px;
+}
+
+.nav-bar {
+  color: white;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.nav-bar ul li {
+  margin: 10px;
+  color: #7cfcda;
+  font-weight: bold;
+}

@@ -29,5 +29,9 @@
 
 .home-text {
   font-size: 60%;
-  text-decoration: underline;
+  color: white;
+}
+
+.home-text:hover {
+  cursor: pointer;
 }
