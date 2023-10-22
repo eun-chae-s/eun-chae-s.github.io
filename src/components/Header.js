@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/Header.css";
 import computer from "../images/computer.png";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
@@ -14,9 +14,9 @@ function Header() {
       ></img>
       <nav className="nav-bar">
         <ul>
-          <Link to={`about`}>
+          <NavLink to="/about">
             <li>About Me</li>
-          </Link>
+          </NavLink>
           <li>Projects</li>
           <li>Experience</li>
           <li>Contact</li>
