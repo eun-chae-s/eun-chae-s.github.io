@@ -10,7 +10,8 @@ function AboutMe() {
       <div className="about-me">
         <img className="about-icon" src={smile} alt="Avatar with Smile"></img>
         <div className="about-text">
-          Someone who wants to contribute to a society for future generations
+          A software engineer who wants to <b>contribute</b> to a society for{" "}
+          <b>future generations</b>
         </div>
         <div className="scroll"></div>
       </div>

@@ -5,6 +5,9 @@ import App from "./App";
 import AboutMe from "./pages/AboutMe";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Projects from "./pages/Projects";
+import Experience from "./pages/Experience";
+import Contact from "./pages/Contact";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const router = createBrowserRouter([
@@ -15,6 +18,18 @@ const router = createBrowserRouter([
   {
     path: "about",
     element: <AboutMe />,
+  },
+  {
+    path: "projects",
+    element: <Projects />,
+  },
+  {
+    path: "experience",
+    element: <Experience />,
+  },
+  {
+    path: "contact",
+    element: <Contact />,
   },
 ]);
 
