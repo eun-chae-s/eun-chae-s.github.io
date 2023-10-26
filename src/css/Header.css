@@ -24,8 +24,14 @@
   justify-content: space-evenly;
 }
 
-.nav-bar ul li {
+.nav-bar a {
   margin: 10px;
-  color: #7cfcda;
   font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-bar a.active {
+  color: #7cfcda;
+  text-decoration: underline;
 }

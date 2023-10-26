@@ -14,12 +14,10 @@ function Header() {
       ></img>
       <nav className="nav-bar">
         <ul>
-          <NavLink to="/about">
-            <li>About Me</li>
-          </NavLink>
-          <li>Projects</li>
-          <li>Experience</li>
-          <li>Contact</li>
+          <NavLink to="/about">About Me</NavLink>
+          <NavLink to="/projects">Projects</NavLink>
+          <NavLink to="/experience">Experience</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
         </ul>
       </nav>
     </div>

@@ -16,4 +16,7 @@
 .about-text {
   color: white;
   font-family: "IBM Plex Mono", monospace;
+  text-align: center;
+  width: 50%;
+  margin-top: 50px;
 }
