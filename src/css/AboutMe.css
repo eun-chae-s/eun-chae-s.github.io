@@ -40,3 +40,7 @@
     transform: translateY(-15px);
   }
 }
+.stats {
+  height: 50%;
+  width: 100%;
+}

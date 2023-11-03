@@ -3,6 +3,7 @@ import smile from "../images/smile.png";
 import Header from "../components/Header";
 import "../css/AboutMe.css";
 import { TiArrowDownThick } from "react-icons/ti";
+import LinearProgress from "@mui/material/LinearProgress";
 
 function AboutMe() {
   return (
@@ -18,7 +19,14 @@ function AboutMe() {
         <div className="scroll">
           <TiArrowDownThick color="#7cfcda" size={75}></TiArrowDownThick>
         </div>
-        <div className="stats"></div>
+        <div className="stats">
+          <LinearProgress
+            variant="determinate"
+            value={50}
+            color="secondary"
+            sx={{ height: "30px", width: "100%" }}
+          ></LinearProgress>
+        </div>
       </div>
     </div>
   );
