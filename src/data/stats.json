@@ -1,0 +1,32 @@
+{
+  "entities": [
+    {
+      "lang": "Python",
+      "value": 80
+    },
+    {
+      "lang": "React",
+      "value": 80
+    },
+    {
+      "lang": "Java",
+      "value": 70
+    },
+    {
+      "lang": "Spring boot",
+      "value": 50
+    },
+    {
+      "lang": "HTML/CSS",
+      "value": 90
+    },
+    {
+      "lang": "Redux",
+      "value": 60
+    },
+    {
+      "lang": "C",
+      "value": 60
+    }
+  ]
+}

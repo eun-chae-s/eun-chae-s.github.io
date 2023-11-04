@@ -4,6 +4,17 @@ import Header from "../components/Header";
 import "../css/AboutMe.css";
 import { TiArrowDownThick } from "react-icons/ti";
 import LinearProgress from "@mui/material/LinearProgress";
+import { createTheme, ThemeProvider } from "@mui/material";
+import * as stats from "../data/stats.json";
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#00b182",
+      light: "#EDEDED",
+    },
+  },
+});
 
 function AboutMe() {
   return (
@@ -20,12 +31,19 @@ function AboutMe() {
           <TiArrowDownThick color="#7cfcda" size={75}></TiArrowDownThick>
         </div>
         <div className="stats">
-          <LinearProgress
-            variant="determinate"
-            value={50}
-            color="secondary"
-            sx={{ height: "30px", width: "100%" }}
-          ></LinearProgress>
+          {stats.entities.map((stat) => (
+            <div className="stat-item">
+              <ThemeProvider theme={theme}>
+                <text>{stat.lang}</text>
+                <LinearProgress
+                  variant="determinate"
+                  value={stat.value}
+                  color="primary"
+                  sx={{ height: "30px", width: "80%", borderRadius: 5 }}
+                ></LinearProgress>
+              </ThemeProvider>
+            </div>
+          ))}
         </div>
       </div>
     </div>
