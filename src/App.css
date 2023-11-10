@@ -2,6 +2,7 @@
 html {
   background-color: black;
   font-family: "IBM Plex Mono", monospace;
+  min-width: 730px;
 }
 
 .App {

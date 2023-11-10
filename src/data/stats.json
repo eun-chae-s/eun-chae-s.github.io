@@ -17,8 +17,12 @@
       "value": 50
     },
     {
-      "lang": "HTML/CSS",
+      "lang": "HTML",
       "value": 90
+    },
+    {
+      "lang": "CSS",
+      "value": 80
     },
     {
       "lang": "Redux",

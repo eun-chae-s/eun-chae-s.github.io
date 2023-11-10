@@ -6,12 +6,14 @@ import { NavLink } from "react-router-dom";
 function Header() {
   return (
     <div className="header">
-      <img
-        className="home-icon"
-        src={computer}
-        alt="Avatar with Computer"
-        onClick={() => {}}
-      ></img>
+      <NavLink to="/">
+        <img
+          className="home-icon"
+          src={computer}
+          alt="Avatar with Computer"
+        ></img>
+      </NavLink>
+
       <nav className="nav-bar">
         <ul>
           <NavLink to="/about">About Me</NavLink>
