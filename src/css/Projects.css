@@ -1,0 +1,23 @@
+.projects {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow-x: auto;
+  position: relative;
+}
+
+.card {
+  margin: 10px;
+}
+
+.card-content {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
