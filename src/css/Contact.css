@@ -1,0 +1,15 @@
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10%;
+}
+.contact-icon {
+  background-color: #7cfcda;
+  border-color: #7cfcda;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+}

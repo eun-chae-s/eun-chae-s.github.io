@@ -4,6 +4,7 @@
   align-items: center;
   overflow-x: auto;
   position: relative;
+  margin: 50px;
 }
 
 .card {

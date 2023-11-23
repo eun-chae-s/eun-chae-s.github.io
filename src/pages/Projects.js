@@ -13,7 +13,7 @@ export default function Projects() {
         {projects.entities.map((project) => (
           <Card
             className="card"
-            sx={{ minWidth: 400, minHeight: 400, borderRadius: 10 }}
+            sx={{ minWidth: 350, minHeight: 350, borderRadius: 10 }}
           >
             <CardContent className="card-content" sx={{ gap: 3 }}>
               <Typography variant="h6" component="div">
