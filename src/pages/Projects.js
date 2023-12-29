@@ -11,6 +11,7 @@ export default function Projects() {
       <Header></Header>
       <div className="projects">
         {projects.entities.map((project) => (
+          // TODO: make it into the separate component
           <Card
             className="card"
             sx={{ minWidth: 350, minHeight: 350, borderRadius: 10 }}

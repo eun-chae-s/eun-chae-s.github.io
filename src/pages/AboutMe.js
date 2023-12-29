@@ -21,7 +21,7 @@ function AboutMe() {
     <div>
       <Header></Header>
       <div className="about-me">
-        {/* fix the icon's position */}
+        {/* TODO: fix the icon's position */}
         <img className="about-icon" src={smile} alt="Avatar with Smile"></img>
         <div className="about-text">
           A software engineer who wants to <b>contribute</b> to a society for{" "}
@@ -32,6 +32,7 @@ function AboutMe() {
         </div>
         <div className="stats">
           {stats.entities.map((stat) => (
+            // TODO: add the animation
             <div className="stat-item">
               <ThemeProvider theme={theme}>
                 <text>{stat.lang}</text>

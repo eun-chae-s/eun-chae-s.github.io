@@ -1,3 +1,24 @@
 .experience {
   color: #7cfcda;
+  margin: 50px;
+}
+
+.experience h2 {
+  font-family: "Amiko", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.experience-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.timeline {
+  width: 25px;
+  height: 500px;
+  background-color: #7cfcda;
+  border-radius: 20px;
+  border-color: #7cfcda;
 }
