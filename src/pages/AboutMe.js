@@ -1,6 +1,7 @@
 import React from "react";
 import smile from "../images/smile.png";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import "../css/AboutMe.css";
 import { TiArrowDownThick } from "react-icons/ti";
 import LinearProgress from "@mui/material/LinearProgress";
@@ -47,6 +48,7 @@ function AboutMe() {
           ))}
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

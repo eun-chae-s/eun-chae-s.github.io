@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import "../css/Experience.css";
 import ExperienceItem from "../components/ExperienceItem";
 import * as experience from "../data/experience.json";
+import Footer from "../components/Footer";
 
 export default function Experience() {
   return (
@@ -38,6 +39,7 @@ export default function Experience() {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

@@ -19,7 +19,6 @@ function Header() {
           <NavLink to="/about">About Me</NavLink>
           <NavLink to="/projects">Projects</NavLink>
           <NavLink to="/experience">Experience</NavLink>
-          <NavLink to="/contact">Contact</NavLink>
         </ul>
       </nav>
     </div>

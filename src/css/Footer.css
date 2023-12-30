@@ -1,0 +1,31 @@
+.footer {
+  background-color: #7cfcda;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icon img {
+  height: 60px;
+  width: 60px;
+}
+
+.sns {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  align-items: center;
+}
+
+.sns a {
+  color: #114a3b;
+  font-size: larger;
+}

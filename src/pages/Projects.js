@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import "../css/Projects.css";
 import * as projects from "../data/projects.json";
 import { Card, CardContent, Typography } from "@mui/material";
@@ -40,6 +41,7 @@ export default function Projects() {
           </Card>
         ))}
       </div>
+      <Footer></Footer>
     </div>
   );
 }
