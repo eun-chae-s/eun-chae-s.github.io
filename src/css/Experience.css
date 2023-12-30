@@ -56,7 +56,7 @@
 .timeline {
   width: 25px;
   flex-shrink: 0;
-  min-height: 100vh;
+  min-height: 150vh;
   background-color: #7cfcda;
   border: 1px solid #7cfcda;
   border-radius: 20px;

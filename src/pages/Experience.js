@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import FadeIn from "react-fade-in/lib/FadeIn";
 import "../css/Experience.css";
 import ExperienceItem from "../components/ExperienceItem";
 import * as experience from "../data/experience.json";
@@ -11,7 +12,7 @@ export default function Experience() {
       <Header></Header>
       <div className="experience">
         <h2>My Journey</h2>
-        <div className="experience-content">
+        <FadeIn className="experience-content">
           <div className="experience-left">
             {experience.entities.map((item, index) => {
               return index % 2 === 0 ? (
@@ -37,7 +38,7 @@ export default function Experience() {
               );
             })}
           </div>
-        </div>
+        </FadeIn>
       </div>
       <Footer></Footer>
     </div>

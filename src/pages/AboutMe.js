@@ -2,6 +2,7 @@ import React from "react";
 import smile from "../images/smile.png";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { TypeAnimation } from "react-type-animation";
 import "../css/AboutMe.css";
 import { TiArrowDownThick } from "react-icons/ti";
 import LinearProgress from "@mui/material/LinearProgress";
@@ -24,10 +25,16 @@ function AboutMe() {
       <div className="about-me">
         {/* TODO: fix the icon's position */}
         <img className="about-icon" src={smile} alt="Avatar with Smile"></img>
-        <div className="about-text">
-          A software engineer who wants to <b>contribute</b> to a society for{" "}
-          <b>future generations</b>
-        </div>
+        <TypeAnimation
+          className="about-text"
+          sequence={[
+            "A software engineer who wants to contribute to a society for future generations!",
+            2000,
+            "",
+          ]}
+          speed={150}
+          repeat={Infinity}
+        ></TypeAnimation>
         <div className="scroll">
           <TiArrowDownThick color="#7cfcda" size={75}></TiArrowDownThick>
         </div>
