@@ -1,45 +1,22 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import ProjectItem from "../components/ProjectItem";
+import FadeIn from "react-fade-in";
 import "../css/Projects.css";
 import * as projects from "../data/projects.json";
-import { Card, CardContent, Typography } from "@mui/material";
-import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
 
 export default function Projects() {
   return (
     <div>
       <Header></Header>
       <div className="projects">
-        {projects.entities.map((project) => (
-          // TODO: make it into the separate component
-          <Card
-            className="card"
-            sx={{ minWidth: 350, minHeight: 350, borderRadius: 10 }}
-          >
-            <CardContent className="card-content" sx={{ gap: 3 }}>
-              <Typography variant="h6" component="div">
-                {project.title}
-              </Typography>
-              <Typography variant="body3" fontWeight={"bold"}>
-                {project.tech}
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                {project.description}
-              </Typography>
-              <Typography className="links">
-                <a href={project.github}>
-                  <AiFillGithub size={40}></AiFillGithub>
-                </a>
-                {project.website && (
-                  <a href={project.website}>
-                    <AiOutlineLink size={40}></AiOutlineLink>
-                  </a>
-                )}
-              </Typography>
-            </CardContent>
-          </Card>
-        ))}
+        <h2>My Learning</h2>
+        <FadeIn className="projects-content">
+          {projects.entities.map((project) => (
+            <ProjectItem project={project}></ProjectItem>
+          ))}
+        </FadeIn>
       </div>
       <Footer></Footer>
     </div>

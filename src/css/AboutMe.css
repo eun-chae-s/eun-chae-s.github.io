@@ -22,7 +22,7 @@
   margin-top: 50px;
 }
 .scroll {
-  margin: 20%;
+  margin: 10%;
   animation: bounce 2s ease infinite;
 }
 @keyframes bounce {

@@ -26,6 +26,7 @@
 
 .nav-bar a {
   margin: 10px;
+  padding: 10px;
   font-weight: bold;
   color: white;
   text-decoration: none;
@@ -34,4 +35,15 @@
 .nav-bar a.active {
   color: #7cfcda;
   text-decoration: underline;
+}
+
+.nav-bar a:hover {
+  color: white;
+  background-color: #40af92;
+  transition-duration: 0.5s;
+}
+
+.nav-bar a.active:hover {
+  color: #7cfcda;
+  background: none;
 }

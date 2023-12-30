@@ -1,4 +1,4 @@
-.projects {
+.projects-content {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -7,18 +7,11 @@
   margin: 50px;
 }
 
-.card {
-  margin: 10px;
-}
-
-.card-content {
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-a {
-  text-decoration: none;
-  color: black;
+.projects h2 {
+  color: #7cfcda;
+  font-family: "Amiko", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 800;
+  font-style: italic;
+  margin-left: 50px;
 }
