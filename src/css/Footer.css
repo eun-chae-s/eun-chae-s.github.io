@@ -28,4 +28,12 @@
 .sns a {
   color: #114a3b;
   font-size: larger;
+  padding: 5px;
+}
+
+.sns a:hover {
+  border-radius: 5px;
+  color: white;
+  background-color: #114a3b;
+  transition-duration: 0.5s;
 }

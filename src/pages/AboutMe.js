@@ -2,6 +2,7 @@ import React from "react";
 import smile from "../images/smile.png";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import FadeIn from "react-fade-in/lib/FadeIn";
 import { TypeAnimation } from "react-type-animation";
 import "../css/AboutMe.css";
 import { TiArrowDownThick } from "react-icons/ti";
@@ -38,7 +39,7 @@ function AboutMe() {
         <div className="scroll">
           <TiArrowDownThick color="#7cfcda" size={75}></TiArrowDownThick>
         </div>
-        <div className="stats">
+        <FadeIn className="stats">
           {stats.entities.map((stat) => (
             // TODO: add the animation
             <div className="stat-item">
@@ -53,7 +54,7 @@ function AboutMe() {
               </ThemeProvider>
             </div>
           ))}
-        </div>
+        </FadeIn>
       </div>
       <Footer></Footer>
     </div>
