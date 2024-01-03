@@ -8,22 +8,25 @@
       "github": "https://github.com/csc301-fall-2022/team-project-3-uoft-faculty-of-music-t"
     },
     {
-      "title": "Cello Exercise Index",
-      "description": "abcd",
-      "tech": "abcd",
-      "link": "abcd"
+      "title": "UTinder",
+      "description": "an Android application that helps the University of Toronto students to manage their academic and social life",
+      "tech": "Java, Firebase, Github",
+      "website": "https://streamable.com/111mln",
+      "github": "https://github.com/Bantonio12/Utinderlogin"
     },
     {
-      "title": "Cello Exercise Index",
-      "description": "abcd",
-      "tech": "abcd",
-      "link": "abcd"
+      "title": "Farmer’s Table",
+      "description": "a React Native application which helps farmers and customers sell and buy agricultural products by direct transaction",
+      "tech": "React Native, Firebase, Github",
+      "github": "https://github.com/eun-chae-s/Farmer-s-Table",
+      "website": "https://streamable.com/zpns1d"
     },
     {
-      "title": "Cello Exercise Index",
-      "description": "abcd",
-      "tech": "abcd",
-      "link": "abcd"
+      "title": "Buddy",
+      "description": "a React web application providing various contents related to psychology to help people produce restore their mental health",
+      "tech": "React, Firebase, Github",
+      "github": "https://github.com/eun-chae-s/Buddy-Application",
+      "website": "https://buddy-8d12c.web.app/"
     }
   ]
 }

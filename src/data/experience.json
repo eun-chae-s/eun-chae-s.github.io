@@ -1,57 +1,31 @@
 {
   "entities": [
     {
-      "place": "Genesys Cloud 1",
-      "position": "Software Engineer Intern 1",
+      "place": "Genesys Cloud",
+      "position": "Software Engineer Intern",
       "start": "May 2023",
       "end": "Present",
-      "description": ["task 1", "task 2", "task 3"]
+      "description": ["Will be added soon"]
     },
     {
-      "place": "Genesys Cloud 2",
-      "position": "Software Engineer Intern 2",
-      "start": "May 2023",
-      "end": "Present",
+      "place": "LABonWEB",
+      "position": "Software Engineer Intern",
+      "start": "September 2022",
+      "end": "March 2023",
       "description": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in consequat nisl. Integer at sapien.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in consequat nisl. Integer at sapien.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in consequat nisl. Integer at sapien."
+        "Wrote a JavaScript code to extract temperature, velocity, and pressure data from Energy2D simulation iframe",
+        "Added UI feature in which user can draw, drag, and modify objects in the several Physics simulations using HTML, CSS, and JavaScript"
       ]
     },
     {
-      "place": "Genesys Cloud 3",
-      "position": "Software Engineer Intern 3",
-      "start": "May 2023",
-      "end": "Present",
+      "place": "Intelligent Adaptive Interventions Lab",
+      "position": "Undergraduate Research Assistant",
+      "start": "May 2022",
+      "end": "April 2023",
       "description": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in consequat nisl. Integer at sapien.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in consequat nisl. Integer at sapien.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in consequat nisl. Integer at sapien."
-      ]
-    },
-    {
-      "place": "Genesys Cloud 4",
-      "position": "Software Engineer Intern 4",
-      "start": "May 2023",
-      "end": "Present",
-      "description": ["task 1", "task 2", "task 3"]
-    },
-    {
-      "place": "Genesys Cloud 5",
-      "position": "Software Engineer Intern 5",
-      "start": "May 2023",
-      "end": "Present",
-      "description": ["task 1", "task 2", "task 3"]
-    },
-    {
-      "place": "Genesys Cloud 6",
-      "position": "Software Engineer Intern 6",
-      "start": "May 2023",
-      "end": "Present",
-      "description": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in consequat nisl. Integer at sapien.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in consequat nisl. Integer at sapien.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in consequat nisl. Integer at sapien."
+        "Assisted in creating surveys on Qualtrics",
+        "Cleaned over 15 datasets with over 1000 rows and conducted statistical analysis using R and Python / Pandas",
+        "Helped with administration-related tasks"
       ]
     }
   ]
