@@ -23,12 +23,12 @@
   border-radius: 50%;
   background-color: white;
   margin: 30px;
-  height: 30%;
-  width: 30%;
+  height: 40vh;
+  width: 40vh;
 }
 
 .home-text {
-  font-size: 60%;
+  font-size: 50%;
   color: white;
 }
 

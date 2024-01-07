@@ -5,15 +5,22 @@ import ProjectItem from "../components/ProjectItem";
 import FadeIn from "react-fade-in";
 import "../css/Projects.css";
 import * as projects from "../data/projects.json";
+import * as competition from "../data/competition.json";
 
 export default function Projects() {
   return (
     <div>
       <Header></Header>
       <div className="projects">
-        <h2>My Learning</h2>
+        <h2>Group & Individual</h2>
         <FadeIn className="projects-content">
           {projects.entities.map((project) => (
+            <ProjectItem project={project}></ProjectItem>
+          ))}
+        </FadeIn>
+        <h2>Competition</h2>
+        <FadeIn className="projects-content">
+          {competition.entities.map((project) => (
             <ProjectItem project={project}></ProjectItem>
           ))}
         </FadeIn>

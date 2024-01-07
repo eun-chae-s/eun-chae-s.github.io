@@ -23,39 +23,40 @@ function AboutMe() {
   return (
     <div>
       <Header></Header>
-      <div className="about-me">
-        {/* TODO: fix the icon's position */}
-        <img className="about-icon" src={smile} alt="Avatar with Smile"></img>
-        <TypeAnimation
-          className="about-text"
-          sequence={[
-            "A software engineer who wants to contribute to a society for future generations!",
-            2000,
-            "",
-          ]}
-          speed={150}
-          repeat={Infinity}
-        ></TypeAnimation>
-        <div className="scroll">
-          <TiArrowDownThick color="#7cfcda" size={75}></TiArrowDownThick>
+      <FadeIn>
+        <div className="about-me">
+          {/* TODO: fix the icon's position */}
+          <img className="about-icon" src={smile} alt="Avatar with Smile"></img>
+          <TypeAnimation
+            className="about-text"
+            sequence={[
+              "A software engineer who wants to contribute to a society for future generations!",
+              2000,
+              "",
+            ]}
+            speed={150}
+            repeat={Infinity}
+          ></TypeAnimation>
+          <div className="scroll">
+            <TiArrowDownThick color="#7cfcda" size={75}></TiArrowDownThick>
+          </div>
+          <div className="stats">
+            {stats.entities.map((stat) => (
+              <div className="stat-item">
+                <ThemeProvider theme={theme}>
+                  <text>{stat.lang}</text>
+                  <LinearProgress
+                    variant="determinate"
+                    value={stat.value}
+                    color="primary"
+                    sx={{ height: "30px", width: "80%", borderRadius: 5 }}
+                  ></LinearProgress>
+                </ThemeProvider>
+              </div>
+            ))}
+          </div>
         </div>
-        <FadeIn className="stats">
-          {stats.entities.map((stat) => (
-            // TODO: add the animation
-            <div className="stat-item">
-              <ThemeProvider theme={theme}>
-                <text>{stat.lang}</text>
-                <LinearProgress
-                  variant="determinate"
-                  value={stat.value}
-                  color="primary"
-                  sx={{ height: "30px", width: "80%", borderRadius: 5 }}
-                ></LinearProgress>
-              </ThemeProvider>
-            </div>
-          ))}
-        </FadeIn>
-      </div>
+      </FadeIn>
       <Footer></Footer>
     </div>
   );

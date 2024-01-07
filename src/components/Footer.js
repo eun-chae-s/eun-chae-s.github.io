@@ -20,7 +20,9 @@ export default function Footer() {
         </a>
       </Typography>
       <div className="footer-icon">
-        <img src={wink} alt="Avatar with Smile"></img>
+        <a href="https://velog.io/@eun-chae-s/posts">
+          <img src={wink} alt="Avatar with Smile"></img>
+        </a>
       </div>
       <Typography className="sns">
         <a href="mailto:sungeunchae@gmail.com">
