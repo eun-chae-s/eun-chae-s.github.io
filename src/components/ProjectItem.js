@@ -20,9 +20,11 @@ export default function ProjectItem({ project }) {
           {project.description}
         </Typography>
         <Typography className="links">
-          <a href={project.github}>
-            <AiFillGithub size={40}></AiFillGithub>
-          </a>
+          {project.github && (
+            <a href={project.github}>
+              <AiFillGithub size={40}></AiFillGithub>
+            </a>
+          )}
           {project.website && (
             <a href={project.website}>
               <AiOutlineLink size={40}></AiOutlineLink>

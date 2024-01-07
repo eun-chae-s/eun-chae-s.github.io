@@ -1,6 +1,7 @@
 .projects-content {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
   overflow-x: auto;
   position: relative;
