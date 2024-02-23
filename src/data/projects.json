@@ -1,15 +1,21 @@
 {
   "entities": [
     {
+      "title": "Unispace",
+      "description": "Website where students can find all the resources needed to develop their career path. Worked as Project Manager for Internship page",
+      "tech": "React.js, Django, Github",
+      "website": "https://unispace.world/en/internship"
+    },
+    {
       "title": "Cello Exercise Index",
-      "description": "a website displaying the list of exercises that anyone playing cello can use for practice, as requested by a graduate student from the Faculty of Music, University of Toronto",
+      "description": "Website displaying the list of exercises that anyone playing cello can use for practice, as requested by a graduate student from the Faculty of Music, University of Toronto",
       "tech": "React.js, Django, Github, Heroku, PostgreSQL",
       "website": "https://cello-exercise-index.herokuapp.com/",
       "github": "https://github.com/csc301-fall-2022/team-project-3-uoft-faculty-of-music-t"
     },
     {
       "title": "UTinder",
-      "description": "an Android application that helps the University of Toronto students to manage their academic and social life",
+      "description": "Android application that helps the University of Toronto students to manage their academic and social life",
       "tech": "Java, Firebase, Github",
       "website": "https://streamable.com/111mln",
       "github": "https://github.com/Bantonio12/Utinderlogin"

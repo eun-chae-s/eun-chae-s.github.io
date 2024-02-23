@@ -2,14 +2,14 @@
   "entities": [
     {
       "title": "Farmer’s Table",
-      "description": "a React Native application which helps farmers and customers sell and buy agricultural products by direct transaction",
+      "description": "React Native application which helps farmers and customers sell and buy agricultural products by direct transaction",
       "tech": "React Native, Firebase, Github",
       "github": "https://github.com/eun-chae-s/Farmer-s-Table",
       "website": "https://streamable.com/zpns1d"
     },
     {
       "title": "Buddy",
-      "description": "a React web application providing various contents related to psychology to help people produce restore their mental health",
+      "description": "React web application providing various contents related to psychology to help people produce restore their mental health",
       "tech": "React, Firebase, Github",
       "github": "https://github.com/eun-chae-s/Buddy-Application",
       "website": "https://buddy-8d12c.web.app/"
