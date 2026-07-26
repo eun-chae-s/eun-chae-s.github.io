@@ -1,0 +1,41 @@
+:root {
+  --color-paper: #f6f4ee;
+  --color-paper-deep: #ebe6dc;
+  --color-ink: #1c1c1b;
+  --color-muted: #696761;
+  --color-rule: #cbc6ba;
+  --color-sage: #aab3a2;
+  --color-blue: #9caab3;
+  --color-blush: #c6a9a1;
+  --color-white: #fffdf8;
+
+  --font-serif: "Newsreader", "Iowan Old Style", "Palatino Linotype",
+    "Book Antiqua", Georgia, serif;
+  --font-sans: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+
+  --text-xs: 0.6875rem;
+  --text-sm: 0.8125rem;
+  --text-base: clamp(1rem, 0.96rem + 0.2vw, 1.125rem);
+  --text-lg: clamp(1.2rem, 1.08rem + 0.6vw, 1.6rem);
+  --text-xl: clamp(2rem, 1.5rem + 2.5vw, 4.5rem);
+  --text-display: clamp(3.6rem, 2rem + 8vw, 10rem);
+
+  --space-1: 0.375rem;
+  --space-2: 0.75rem;
+  --space-3: 1.25rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --space-6: clamp(4rem, 8vw, 8rem);
+  --space-7: clamp(6rem, 12vw, 12rem);
+
+  --page-gutter: clamp(1.25rem, 4vw, 4.5rem);
+  --content-max: 100rem;
+  --reading-width: 42rem;
+  --header-height: 6rem;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration-fast: 180ms;
+  --duration-base: 380ms;
+  --duration-slow: 600ms;
+}
