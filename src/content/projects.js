@@ -27,7 +27,7 @@ export const projects = [
     description:
       "A wine and whisky app that lets users scan a bottle, automatically pull out important product details, and save them to a personal archive. I worked on the scan flow from image capture to result display, including OpenAI-based image understanding, prompt design for product lookup, and product image search.",
     technologies: ["Expo", "React Native", "Django", "AWS", "OpenAI API"],
-    image: "/images/barrel.png",
+    image: "https://d3ci2dhksvo0zi.cloudfront.net/images/barrel.png",
     imageAlt: "Barrel app logo",
     mediaType: "logo",
     imagePosition: "center",
@@ -45,7 +45,7 @@ export const projects = [
     description:
       "A community app for creating and joining groups and events. I worked mainly on the backend, building the authentication flow across Kakao, Naver, and Apple and supporting user safety and account flows such as blocking and suspension.",
     technologies: ["Expo", "React Native", "TypeScript", "Django"],
-    image: "/images/gloda.jpg",
+    image: "https://d3ci2dhksvo0zi.cloudfront.net/images/gloda.jpg",
     imageAlt: "Gloda app logo",
     mediaType: "logo",
     imagePosition: "center",
