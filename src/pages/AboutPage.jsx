@@ -17,6 +17,7 @@ export function AboutPage() {
           accent="blush"
           ratio="portrait"
           annotation="A photograph belongs here"
+          parallax
         />
         <p className="about-hero__note" aria-hidden="true">
           Human first,

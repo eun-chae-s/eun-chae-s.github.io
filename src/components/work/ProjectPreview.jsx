@@ -3,7 +3,7 @@ import { EditorialMedia } from "../editorial/EditorialMedia";
 export function ProjectPreview({ project }) {
   return (
     <article className="project-preview">
-      <a href={project.href}>
+      <a href={project.href} data-cursor="View">
         <EditorialMedia
           src={project.image}
           alt={project.imageAlt}

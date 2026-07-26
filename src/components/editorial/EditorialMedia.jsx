@@ -1,3 +1,5 @@
+import { useParallax } from "../../hooks/useParallax";
+
 export function EditorialMedia({
   src,
   alt,
@@ -5,11 +7,16 @@ export function EditorialMedia({
   ratio = "landscape",
   className = "",
   annotation,
+  parallax = false,
 }) {
+  const parallaxRef = useParallax(parallax);
+
   return (
     <figure
+      ref={parallaxRef}
       className={`editorial-media editorial-media--${ratio} ${className}`.trim()}
       data-accent={accent}
+      data-parallax={parallax}
     >
       <div className="editorial-media__frame">
         {src ? (

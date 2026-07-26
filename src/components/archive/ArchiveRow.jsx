@@ -1,7 +1,10 @@
 export function ArchiveRow({ entry, number }) {
   return (
     <li className="archive-row">
-      <a href={entry.href}>
+      <a
+        href={entry.href}
+        data-cursor={entry.type === "Note" ? "Read" : "Open"}
+      >
         <span className="archive-row__number eyebrow">{number}</span>
         <time className="archive-row__date" dateTime={entry.date}>
           {entry.displayDate}

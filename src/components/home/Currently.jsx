@@ -1,8 +1,14 @@
 import { SectionHeading } from "../editorial/SectionHeading";
+import { useReveal } from "../../hooks/useReveal";
 
 export function Currently({ items }) {
+  const revealRef = useReveal();
+
   return (
-    <section className="home-section currently">
+    <section
+      ref={revealRef}
+      className="home-section currently reveal-section"
+    >
       <SectionHeading
         number="03"
         eyebrow="A small life update"

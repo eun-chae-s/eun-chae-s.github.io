@@ -17,6 +17,7 @@ export function Hero({ content }) {
           accent="blush"
           ratio="portrait"
           annotation={content.annotation}
+          parallax
         />
         <a className="hero__continuation" href="#selected-work">
           <span className="hero__continuation-line" aria-hidden="true" />

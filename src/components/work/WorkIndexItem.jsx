@@ -5,7 +5,11 @@ export function WorkIndexItem({ project, index }) {
 
   return (
     <article className="work-index-item editorial-grid">
-      <a className="work-index-item__media" href={project.href}>
+      <a
+        className="work-index-item__media"
+        href={project.href}
+        data-cursor="View"
+      >
         <EditorialMedia
           src={project.image}
           alt={project.imageAlt}

@@ -1,8 +1,14 @@
 import { EditorialMedia } from "../editorial/EditorialMedia";
+import { useReveal } from "../../hooks/useReveal";
 
 export function AboutPreview({ content }) {
+  const revealRef = useReveal();
+
   return (
-    <section className="home-section about-preview editorial-grid">
+    <section
+      ref={revealRef}
+      className="home-section about-preview editorial-grid reveal-section"
+    >
       <EditorialMedia
         className="about-preview__media"
         src={content.image}

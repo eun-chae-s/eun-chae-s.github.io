@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import { MediaCursor } from "../motion/MediaCursor";
 import { SiteFooter } from "./SiteFooter";
 import { SiteHeader } from "./SiteHeader";
 
@@ -23,6 +24,7 @@ export function PageShell({ children }) {
       <SiteHeader />
       {children}
       <SiteFooter />
+      <MediaCursor />
     </>
   );
 }

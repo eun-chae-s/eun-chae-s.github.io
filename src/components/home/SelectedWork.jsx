@@ -1,12 +1,18 @@
 import { ProjectFeature } from "../work/ProjectFeature";
 import { ProjectPreview } from "../work/ProjectPreview";
 import { SectionHeading } from "../editorial/SectionHeading";
+import { useReveal } from "../../hooks/useReveal";
 
 export function SelectedWork({ projects }) {
   const [featured, ...supporting] = projects;
+  const revealRef = useReveal();
 
   return (
-    <section id="selected-work" className="home-section selected-work">
+    <section
+      ref={revealRef}
+      id="selected-work"
+      className="home-section selected-work reveal-section"
+    >
       <SectionHeading
         number="01"
         eyebrow="A selection"

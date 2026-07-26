@@ -1,9 +1,15 @@
 import { SectionHeading } from "../editorial/SectionHeading";
 import { NotePreview } from "../notes/NotePreview";
+import { useReveal } from "../../hooks/useReveal";
 
 export function RecentNotes({ notes }) {
+  const revealRef = useReveal();
+
   return (
-    <section className="home-section recent-notes">
+    <section
+      ref={revealRef}
+      className="home-section recent-notes reveal-section"
+    >
       <SectionHeading
         number="02"
         eyebrow="From the notebook"

@@ -3,7 +3,11 @@ import { EditorialMedia } from "../editorial/EditorialMedia";
 export function ProjectFeature({ project }) {
   return (
     <article className="project-feature editorial-grid">
-      <a className="project-feature__media-link" href={project.href}>
+      <a
+        className="project-feature__media-link"
+        href={project.href}
+        data-cursor="View"
+      >
         <EditorialMedia
           src={project.image}
           alt={project.imageAlt}

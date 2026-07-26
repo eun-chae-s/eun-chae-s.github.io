@@ -5,6 +5,7 @@
 @import "./home.css";
 @import "./pages.css";
 @import "./footer.css";
+@import "./motion.css";
 
 @media (prefers-reduced-motion: reduce) {
   html {
