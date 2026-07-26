@@ -6,8 +6,8 @@ export function Hero({ content }) {
         <p className="hero__eyebrow eyebrow">{content.eyebrow}</p>
         <h1 id="hero-title" className="hero__title">
           <span>I build thoughtfully,</span>
-          <span>stay curious, and write</span>
-          <span>things down.</span>
+          <span>stay curious, and</span>
+          <span>write things down.</span>
         </h1>
         <p className="hero__introduction">{content.introduction}</p>
         <EditorialMedia

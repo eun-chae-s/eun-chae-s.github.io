@@ -109,8 +109,8 @@
   left: 0;
   display: none;
   place-items: center;
-  width: 4.25rem;
-  height: 4.25rem;
+  width: 3.5rem;
+  height: 3.5rem;
   border-radius: 50%;
   background: var(--color-ink);
   color: var(--color-paper);

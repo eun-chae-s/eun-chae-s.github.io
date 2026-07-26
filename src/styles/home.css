@@ -18,7 +18,8 @@
   font-size: clamp(3.9rem, 7.4vw, 8.8rem);
   font-weight: 400;
   letter-spacing: -0.06em;
-  line-height: 0.85;
+  line-height: 1;
+  margin-top: 0.5em;
 }
 
 .hero__title span {
@@ -30,8 +31,7 @@
 }
 
 .hero__title span:nth-child(3) {
-  margin-left: 2.35em;
-  font-style: italic;
+  margin-left: 0.8em;
 }
 
 .hero__introduction {
@@ -488,8 +488,10 @@
 
   .hero__title {
     grid-column: 1 / -1;
-    margin-top: var(--space-5);
-    font-size: clamp(3.15rem, 15vw, 5.5rem);
+    margin-top: var(--space-4);
+    font-size: clamp(2.5rem, 11vw, 3.25rem);
+    letter-spacing: -0.055em;
+    line-height: 0.94;
   }
 
   .hero__title span:nth-child(2) {
@@ -497,7 +499,7 @@
   }
 
   .hero__title span:nth-child(3) {
-    margin-left: 0.65em;
+    margin-left: 0;
   }
 
   .hero__introduction {
