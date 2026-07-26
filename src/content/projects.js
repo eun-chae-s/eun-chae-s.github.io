@@ -1,0 +1,47 @@
+export const projects = [
+  {
+    number: "01",
+    title: "Project One",
+    year: "2026",
+    category: "Product · Engineering",
+    description:
+      "A useful digital product shaped through careful systems thinking and an attention to the details people actually notice.",
+    technologies: ["React", "JavaScript", "Design systems"],
+    image: null,
+    imageAlt: "Replace with a wide image representing Project One",
+    imagePosition: "center",
+    href: "/work",
+    featured: true,
+    accent: "sage",
+  },
+  {
+    number: "02",
+    title: "Project Two",
+    year: "2025",
+    category: "Software · Collaboration",
+    description:
+      "A collaborative project exploring how considered technology can make a complicated task feel more natural.",
+    technologies: ["Web application", "Research"],
+    image: null,
+    imageAlt: "Replace with a portrait image representing Project Two",
+    imagePosition: "center",
+    href: "/work",
+    featured: false,
+    accent: "blue",
+  },
+  {
+    number: "03",
+    title: "Experiment One",
+    year: "2025",
+    category: "Experiment",
+    description:
+      "A smaller study made to learn something new, follow a question, and see where a modest idea might lead.",
+    technologies: ["Prototype", "Ongoing"],
+    image: null,
+    imageAlt: "Replace with an image representing Experiment One",
+    imagePosition: "center",
+    href: "/work",
+    featured: false,
+    accent: "blush",
+  },
+];

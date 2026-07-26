@@ -2,6 +2,7 @@
 @import "./reset.css";
 @import "./global.css";
 @import "./navigation.css";
+@import "./home.css";
 @import "./footer.css";
 
 @media (prefers-reduced-motion: reduce) {

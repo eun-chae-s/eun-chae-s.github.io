@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 import { PageShell } from "../components/layout/PageShell";
+import { EditorialHomePage } from "../pages/EditorialHomePage";
 import { PlaceholderPage } from "../pages/PlaceholderPage";
 
 const routes = [
-  { path: "/", eyebrow: "Editorial Archive", title: "Home" },
   { path: "/work", eyebrow: "Selected practice", title: "Work" },
   { path: "/notes", eyebrow: "Ideas & observations", title: "Notes" },
   { path: "/about", eyebrow: "A little more", title: "About" },
@@ -14,6 +14,7 @@ export default function App() {
   return (
     <PageShell>
       <Routes>
+        <Route path="/" element={<EditorialHomePage />} />
         {routes.map((route) => (
           <Route
             key={route.path}
