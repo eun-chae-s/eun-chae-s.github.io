@@ -55,33 +55,41 @@ Not because it needs to be impressive, useful to everyone, or even particularly 
 
 Somehow, that also became the starting point for thinking more seriously about personal branding — although I’m still not completely sure if “personal branding” is the right word for what I mean here 🙂
 
-## The definition of personal branding
+## What personal branding means to me
 
 I honestly don’t know when I first started noticing the term *personal branding*. Maybe it became more common as content creators and influencers started sharing more of themselves online.
 
 To me, it usually sounded like figuring out how to present who you are, what you care about, and what you want other people to associate with you.
 
-And I realized that this matters outside of social media too.
+But lately, I’ve started thinking about it in a more personal way.
 
-It matters when you are looking for a new job, but also when you are meeting new people and building new relationships. The idea of “knowing myself” started to feel especially important to me when I thought about meeting people outside of the circles I already knew.
+When I was in school, meeting people happened pretty naturally. You saw the same people in classes, worked on assignments together, joined clubs, and somehow became friends along the way. You didn’t always need to have the same interests to get close.
 
-After graduating from university, my lifestyle became pretty standardized.
+After graduating, that changed a lot.
+
+Once you start working, meeting new people feels much more intentional. Unless I actively join a class or social group, or happen to meet someone through friends, there are not that many natural chances to build new relationships.
+
+That made me think more seriously about knowing myself.
+
+If I’m going to be more intentional about the people I meet from now on, I also want to understand what I value, what I enjoy, and what kind of people I truly want to keep in my life.
+
+At the same time, I noticed that my own lifestyle had become pretty standardized.
 
 Wake up. Get ready for work. Work. Come home. Then maybe study something, scroll on my phone, work out, meet school friends, or sometimes do absolutely nothing.
 
-There’s nothing particularly wrong with that routine, but at some point I started wondering how small my world could become if I kept doing the same things all the time.
+There’s nothing particularly wrong with that routine, but I started wondering how small my world could become if I kept doing the same things all the time.
 
 So I started trying to expand it a little.
 
 I took dance classes. I started learning tennis. And at the same time, I became more curious about my own tastes.
 
-- What kind of music do I actually like now, even if I didn’t like it before?
-- Is there an artist I keep coming back to?
-- What kind of ideas or messages stay with me after reading a book?
-- Are there any ideas or philosophies that are actually worth bringing into my own life?
-- What kinds of fragrances do I actually like now?
-- When do I feel most comfortable around other people?
-- Who do I want to share my life with?
+* What kind of music do I actually like now, even if I didn’t like it before?
+* Is there an artist I keep coming back to?
+* What kind of ideas or messages stay with me after reading a book?
+* Are there any ideas or philosophies that are actually worth bringing into my own life?
+* What kinds of fragrances do I actually like now?
+* When do I feel most comfortable around other people?
+* Who do I want to share my life with?
 
 None of these questions are particularly serious on their own. But together, they started helping me understand what I like, what I don’t like, and what I want more of in my life.
 
@@ -103,5 +111,5 @@ Not only as a place to show projects or work, but as a place where I can leave s
 
 Maybe that’s what personal branding means to me right now.
 
-Less about deciding exactly how I want other people to see me, and more about becoming a little more intentional about noticing who I am — and actually putting some of it into the world.
+Less about deciding exactly how I want other people to see me, and more about understanding myself well enough to be more intentional about what I choose, who I keep around me, and what I put into the world.
 `,Q2={"personal-branding-for-myself":X2};function Ig({eyebrow:l,title:i}){return w.jsx("main",{id:"main-content",className:"page-placeholder",children:w.jsxs("div",{className:"editorial-grid",children:[w.jsx("p",{className:"eyebrow page-placeholder__eyebrow",children:l}),w.jsx("h1",{className:"display-title page-placeholder__title",children:i}),w.jsx("p",{className:"page-placeholder__note",children:"This section is being carefully arranged."})]})})}function Z2(l){return l.replace(/^#\s+.+(?:\r?\n)+/,"")}function K2(){const{slug:l}=i1(),i=ki.find(r=>r.slug===l),u=Q2[l];return U.useEffect(()=>{i&&(document.title=`${i.title} — Rachel`)},[i]),!i||!u?w.jsx(Ig,{eyebrow:"Notes · Entry not found",title:"This note is not in the archive."}):w.jsxs("main",{id:"main-content",className:"article-page",children:[w.jsxs("header",{className:"article-header editorial-grid",children:[w.jsx(fr,{className:"article-header__back text-link",to:"/notes",children:"← All notes"}),w.jsx("p",{className:"article-header__category eyebrow",children:i.category}),w.jsx("h1",{children:i.title}),w.jsx("p",{className:"article-header__excerpt",children:i.excerpt}),w.jsxs("div",{className:"article-header__meta eyebrow",children:[w.jsx("time",{dateTime:i.isoDate,children:i.date}),i.readingTime?w.jsxs("span",{children:[i.readingTime," read"]}):null]})]}),i.image?w.jsxs("figure",{className:"article-hero editorial-grid",children:[w.jsx("div",{className:"article-hero__image",children:w.jsx("img",{src:i.image,alt:i.imageAlt,fetchPriority:"high"})}),w.jsxs("figcaption",{className:"article-hero__caption",children:[w.jsx("span",{"aria-hidden":"true",children:"↳"})," A view from Toronto, July 2026"]})]}):null,w.jsxs("div",{className:"article-layout editorial-grid",children:[w.jsxs("aside",{className:"article-aside",children:[w.jsx("p",{className:"eyebrow",children:"Filed under"}),w.jsx("p",{children:i.category}),w.jsx("p",{className:"article-aside__note",children:"A thought from the ongoing archive."})]}),w.jsx("article",{className:"article-body",children:w.jsx(H2,{components:{a({href:r,children:s,...f}){const h=r?.startsWith("http");return w.jsx("a",{href:r,...f,...h?{target:"_blank",rel:"noreferrer"}:{},children:s})}},children:Z2(u)})})]}),w.jsxs("nav",{className:"article-footer editorial-grid","aria-label":"Note navigation",children:[w.jsx("p",{children:"Thanks for reading."}),w.jsx(fr,{className:"text-link",to:"/notes",children:"Return to all notes"})]})]})}function J2({project:l,index:i}){const u=i%2!==0;return w.jsxs("article",{className:"work-index-item editorial-grid",children:[w.jsx("a",{className:"work-index-item__media",href:l.href,"data-cursor":"View",target:"_blank",rel:"noreferrer","aria-label":`Open ${l.title} in a new tab`,children:w.jsx(wa,{src:l.image,alt:l.imageAlt,accent:l.accent,ratio:u?"portrait":"feature",mediaType:l.mediaType,previewUrl:l.previewUrl,imagePosition:l.imagePosition})}),w.jsxs("div",{className:"work-index-item__content",children:[w.jsxs("div",{className:"project-meta eyebrow",children:[w.jsx("span",{children:l.number}),w.jsx("span",{children:l.year})]}),w.jsx("p",{className:"work-index-item__category eyebrow",children:l.category}),w.jsx("h2",{children:w.jsx("a",{href:l.href,target:"_blank",rel:"noreferrer",children:l.title})}),w.jsx("p",{className:"work-index-item__description",children:l.description}),w.jsx("ul",{className:"project-technologies","aria-label":"Technologies",children:l.technologies.map(r=>w.jsx("li",{children:r},r))}),w.jsx("a",{className:"text-link",href:l.href,target:"_blank",rel:"noreferrer",children:"View project"})]})]})}function I2(){return w.jsxs("main",{id:"main-content",className:"work-page",children:[w.jsx(Rs,{eyebrow:"Work · Projects & experiments",title:"From idea to something real",introduction:"A mix of team projects, personal projects, and things I’ve built to learn something new.",aside:"Some are more polished than others, but each one taught me something."}),w.jsx("section",{className:"work-index","aria-label":"Project index",children:hr.map((l,i)=>w.jsx(J2,{project:l,index:i},l.number))}),w.jsxs("aside",{className:"work-invitation editorial-grid",children:[w.jsx("p",{className:"eyebrow",children:"More to come"}),w.jsx("p",{children:"This archive will keep changing as new work is finished and older work finds its proper story."})]})]})}function F2(){const l=Wt();return w.jsx(i0,{children:w.jsx(u0,{routeKey:l.pathname,children:w.jsxs(x1,{location:l,children:[w.jsx(ol,{path:"/",element:w.jsx(E0,{})}),w.jsx(ol,{path:"/work",element:w.jsx(I2,{})}),w.jsx(ol,{path:"/notes",element:w.jsx(w0,{})}),w.jsx(ol,{path:"/notes/:slug",element:w.jsx(K2,{})}),w.jsx(ol,{path:"/about",element:w.jsx(o0,{})}),w.jsx(ol,{path:"/archive",element:w.jsx(d0,{})}),w.jsx(ol,{path:"*",element:w.jsx(Ig,{eyebrow:"Nothing filed here",title:"Page not found"})})]})})})}bb.createRoot(document.getElementById("root")).render(w.jsx(U.StrictMode,{children:w.jsx(X1,{children:w.jsx(F2,{})})}));
