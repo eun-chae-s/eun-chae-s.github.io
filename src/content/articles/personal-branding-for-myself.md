@@ -32,33 +32,41 @@ Not because it needs to be impressive, useful to everyone, or even particularly 
 
 Somehow, that also became the starting point for thinking more seriously about personal branding — although I’m still not completely sure if “personal branding” is the right word for what I mean here 🙂
 
-## The definition of personal branding
+## What personal branding means to me
 
 I honestly don’t know when I first started noticing the term *personal branding*. Maybe it became more common as content creators and influencers started sharing more of themselves online.
 
 To me, it usually sounded like figuring out how to present who you are, what you care about, and what you want other people to associate with you.
 
-And I realized that this matters outside of social media too.
+But lately, I’ve started thinking about it in a more personal way.
 
-It matters when you are looking for a new job, but also when you are meeting new people and building new relationships. The idea of “knowing myself” started to feel especially important to me when I thought about meeting people outside of the circles I already knew.
+When I was in school, meeting people happened pretty naturally. You saw the same people in classes, worked on assignments together, joined clubs, and somehow became friends along the way. You didn’t always need to have the same interests to get close.
 
-After graduating from university, my lifestyle became pretty standardized.
+After graduating, that changed a lot.
+
+Once you start working, meeting new people feels much more intentional. Unless I actively join a class or social group, or happen to meet someone through friends, there are not that many natural chances to build new relationships.
+
+That made me think more seriously about knowing myself.
+
+If I’m going to be more intentional about the people I meet from now on, I also want to understand what I value, what I enjoy, and what kind of people I truly want to keep in my life.
+
+At the same time, I noticed that my own lifestyle had become pretty standardized.
 
 Wake up. Get ready for work. Work. Come home. Then maybe study something, scroll on my phone, work out, meet school friends, or sometimes do absolutely nothing.
 
-There’s nothing particularly wrong with that routine, but at some point I started wondering how small my world could become if I kept doing the same things all the time.
+There’s nothing particularly wrong with that routine, but I started wondering how small my world could become if I kept doing the same things all the time.
 
 So I started trying to expand it a little.
 
 I took dance classes. I started learning tennis. And at the same time, I became more curious about my own tastes.
 
-- What kind of music do I actually like now, even if I didn’t like it before?
-- Is there an artist I keep coming back to?
-- What kind of ideas or messages stay with me after reading a book?
-- Are there any ideas or philosophies that are actually worth bringing into my own life?
-- What kinds of fragrances do I actually like now?
-- When do I feel most comfortable around other people?
-- Who do I want to share my life with?
+* What kind of music do I actually like now, even if I didn’t like it before?
+* Is there an artist I keep coming back to?
+* What kind of ideas or messages stay with me after reading a book?
+* Are there any ideas or philosophies that are actually worth bringing into my own life?
+* What kinds of fragrances do I actually like now?
+* When do I feel most comfortable around other people?
+* Who do I want to share my life with?
 
 None of these questions are particularly serious on their own. But together, they started helping me understand what I like, what I don’t like, and what I want more of in my life.
 
@@ -80,4 +88,4 @@ Not only as a place to show projects or work, but as a place where I can leave s
 
 Maybe that’s what personal branding means to me right now.
 
-Less about deciding exactly how I want other people to see me, and more about becoming a little more intentional about noticing who I am — and actually putting some of it into the world.
+Less about deciding exactly how I want other people to see me, and more about understanding myself well enough to be more intentional about what I choose, who I keep around me, and what I put into the world.
