@@ -9,6 +9,16 @@ function ScrollToTop() {
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "instant" });
+
+    const titles = {
+      "/": "Rachel — Editorial Archive",
+      "/work": "Work — Rachel",
+      "/notes": "Notes — Rachel",
+      "/about": "About — Rachel",
+      "/archive": "Archive — Rachel",
+    };
+
+    document.title = titles[pathname] || "Page not found — Rachel";
   }, [pathname]);
 
   return null;

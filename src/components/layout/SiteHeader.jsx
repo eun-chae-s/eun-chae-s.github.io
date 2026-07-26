@@ -16,6 +16,24 @@ export function SiteHeader() {
     setMenuOpen(false);
   }, [pathname]);
 
+  useEffect(() => {
+    if (!menuOpen) return undefined;
+
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+
+    const closeOnEscape = (event) => {
+      if (event.key === "Escape") setMenuOpen(false);
+    };
+
+    document.addEventListener("keydown", closeOnEscape);
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      document.removeEventListener("keydown", closeOnEscape);
+    };
+  }, [menuOpen]);
+
   return (
     <header className="site-header">
       <div className="site-header__inner">
@@ -31,6 +49,7 @@ export function SiteHeader() {
           type="button"
           aria-expanded={menuOpen}
           aria-controls="primary-navigation"
+          aria-label={menuOpen ? "Close navigation" : "Open navigation"}
           onClick={() => setMenuOpen((open) => !open)}
         >
           <span>{menuOpen ? "Close" : "Menu"}</span>

@@ -1,6 +1,6 @@
-# Portfolio image uploads
+# Portfolio content and image guide
 
-Put final site images in this folder. Files placed here are referenced from the
+Put final site images in `public/images/`. Files placed there are referenced from the
 site with paths beginning `/images/`.
 
 Suggested filenames:
