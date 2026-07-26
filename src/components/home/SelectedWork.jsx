@@ -15,8 +15,8 @@ export function SelectedWork({ projects }) {
     >
       <SectionHeading
         number="01"
-        eyebrow="A selection"
-        title="Selected Work"
+        eyebrow="From the archive"
+        title="Into the World"
         link={{ href: "/work", label: "See all work" }}
       />
       <ProjectFeature project={featured} />

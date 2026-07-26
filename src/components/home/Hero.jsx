@@ -18,6 +18,7 @@ export function Hero({ content }) {
           ratio="portrait"
           annotation={content.annotation}
           parallax
+          loading="eager"
         />
         <a className="hero__continuation" href="#selected-work">
           <span className="hero__continuation-line" aria-hidden="true" />

@@ -9,12 +9,18 @@ export function WorkIndexItem({ project, index }) {
         className="work-index-item__media"
         href={project.href}
         data-cursor="View"
+        target="_blank"
+        rel="noreferrer"
+        aria-label={`Open ${project.title} in a new tab`}
       >
         <EditorialMedia
           src={project.image}
           alt={project.imageAlt}
           accent={project.accent}
           ratio={portrait ? "portrait" : "feature"}
+          mediaType={project.mediaType}
+          previewUrl={project.previewUrl}
+          imagePosition={project.imagePosition}
         />
       </a>
       <div className="work-index-item__content">
@@ -24,7 +30,9 @@ export function WorkIndexItem({ project, index }) {
         </div>
         <p className="work-index-item__category eyebrow">{project.category}</p>
         <h2>
-          <a href={project.href}>{project.title}</a>
+          <a href={project.href} target="_blank" rel="noreferrer">
+            {project.title}
+          </a>
         </h2>
         <p className="work-index-item__description">{project.description}</p>
         <ul className="project-technologies" aria-label="Technologies">
@@ -32,7 +40,12 @@ export function WorkIndexItem({ project, index }) {
             <li key={technology}>{technology}</li>
           ))}
         </ul>
-        <a className="text-link" href={project.href}>
+        <a
+          className="text-link"
+          href={project.href}
+          target="_blank"
+          rel="noreferrer"
+        >
           View project
         </a>
       </div>

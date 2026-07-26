@@ -16,7 +16,7 @@ export function AboutPage() {
           alt={about.imageAlt}
           accent="blush"
           ratio="portrait"
-          annotation="A photograph belongs here"
+          annotation="a little awkward smile"
           parallax
         />
         <p className="about-hero__note" aria-hidden="true">

@@ -7,17 +7,13 @@ export function WorkPage() {
     <main id="main-content" className="work-page">
       <PageIntro
         eyebrow="Work · Projects & experiments"
-        title="Useful things, made with care."
-        introduction="A growing selection of professional work, collaborative projects, and smaller experiments. Full case studies can be added here when the stories are ready."
-        aside="Projects are arranged as features, not ranked by importance."
+        title="From idea to something real"
+        introduction="A mix of team projects, personal projects, and things I’ve built to learn something new."
+        aside="Some are more polished than others, but each one taught me something."
       />
       <section className="work-index" aria-label="Project index">
         {projects.map((project, index) => (
-          <WorkIndexItem
-            key={project.number}
-            project={project}
-            index={index}
-          />
+          <WorkIndexItem key={project.number} project={project} index={index} />
         ))}
       </section>
       <aside className="work-invitation editorial-grid">

@@ -7,12 +7,18 @@ export function ProjectFeature({ project }) {
         className="project-feature__media-link"
         href={project.href}
         data-cursor="View"
+        target="_blank"
+        rel="noreferrer"
+        aria-label={`Open ${project.title} in a new tab`}
       >
         <EditorialMedia
           src={project.image}
           alt={project.imageAlt}
           accent={project.accent}
           ratio="feature"
+          mediaType={project.mediaType}
+          previewUrl={project.previewUrl}
+          imagePosition={project.imagePosition}
         />
       </a>
       <div className="project-feature__content">
@@ -22,7 +28,9 @@ export function ProjectFeature({ project }) {
           <span>{project.year}</span>
         </div>
         <h3>
-          <a href={project.href}>{project.title}</a>
+          <a href={project.href} target="_blank" rel="noreferrer">
+            {project.title}
+          </a>
         </h3>
         <p>{project.description}</p>
         <ul className="project-technologies" aria-label="Technologies">
@@ -30,7 +38,12 @@ export function ProjectFeature({ project }) {
             <li key={technology}>{technology}</li>
           ))}
         </ul>
-        <a className="text-link project-feature__link" href={project.href}>
+        <a
+          className="text-link project-feature__link"
+          href={project.href}
+          target="_blank"
+          rel="noreferrer"
+        >
           View project
         </a>
       </div>

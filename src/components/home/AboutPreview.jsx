@@ -15,7 +15,7 @@ export function AboutPreview({ content }) {
         alt={content.imageAlt}
         accent="blue"
         ratio="portrait"
-        annotation="Portrait, eventually"
+        annotation="graduated!"
       />
       <div className="about-preview__content">
         <p className="eyebrow">{content.eyebrow}</p>

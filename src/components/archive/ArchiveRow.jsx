@@ -4,6 +4,12 @@ export function ArchiveRow({ entry, number }) {
       <a
         href={entry.href}
         data-cursor={entry.type === "Note" ? "Read" : "Open"}
+        {...(entry.external
+          ? { target: "_blank", rel: "noreferrer" }
+          : {})}
+        aria-label={
+          entry.external ? `Open ${entry.title} in a new tab` : undefined
+        }
       >
         <span className="archive-row__number eyebrow">{number}</span>
         <time className="archive-row__date" dateTime={entry.date}>

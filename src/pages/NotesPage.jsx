@@ -8,10 +8,13 @@ export function NotesPage() {
       <PageIntro
         eyebrow="Notes · Ideas & observations"
         title="Things I wanted to remember."
-        introduction="Longer essays, short observations, technical learning, and occasional fragments from everyday life. Not everything here needs to become a definitive argument."
-        aside="Some notes are considered essays. Others are simply notes."
+        introduction="A place for short thoughts, things I’m learning, and ideas I don’t want to lose. Some are more finished than others, and that’s kind of the point."
+        aside="Not everything here needs to be fully figured out."
       />
-      <section className="notes-index editorial-grid" aria-labelledby="notes-title">
+      <section
+        className="notes-index editorial-grid"
+        aria-labelledby="notes-title"
+      >
         <div className="notes-index__heading">
           <h2 id="notes-title" className="eyebrow">
             All notes
@@ -31,8 +34,7 @@ export function NotesPage() {
       <aside className="notes-small-thought editorial-grid">
         <p className="eyebrow">A smaller thought</p>
         <blockquote>
-          “The archive can hold a sentence before it knows whether it wants to
-          become an essay.”
+          “Writing it down helps me think a little less in circles.”
         </blockquote>
       </aside>
     </main>

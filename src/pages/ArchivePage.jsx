@@ -3,8 +3,7 @@ import { PageIntro } from "../components/editorial/PageIntro";
 import { archiveEntries } from "../content/archive";
 
 const groupedEntries = archiveEntries.reduce((groups, entry) => {
-  const year = new Date(`${entry.date}T00:00:00`).getFullYear();
-  groups[year] = [...(groups[year] || []), entry];
+  groups[entry.year] = [...(groups[entry.year] || []), entry];
   return groups;
 }, {});
 
@@ -14,7 +13,7 @@ export function ArchivePage() {
       <PageIntro
         eyebrow="Archive · Everything, in order"
         title="A record of making and noticing."
-        introduction="Projects, experiments, essays, and small updates share one chronological home. The archive is allowed to be eclectic; time supplies the organizing principle."
+        introduction="Projects, notes, experiments, and small updates collected in one place — a timeline of what I’ve been making, learning, and paying attention to."
         aside={`${String(archiveEntries.length).padStart(2, "0")} entries so far`}
       />
 

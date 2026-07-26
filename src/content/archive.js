@@ -1,20 +1,19 @@
 import { notes } from "./notes";
 import { projects } from "./projects";
 
-const projectDates = {
-  "Project One": "2026-04-08",
-  "Project Two": "2025-10-16",
-  "Experiment One": "2025-07-03",
-};
-
-const projectEntries = projects.map((project) => ({
+const projectEntries = projects.map((project, index) => ({
   id: `work-${project.number}`,
-  type: project.status === "Experiment" ? "Experiment" : "Work",
+  type: "Project",
   title: project.title,
-  date: projectDates[project.title],
+  date: String(project.archiveYear),
+  year: project.archiveYear,
+  sortKey: `${project.archiveYear}-00-${String(
+    projects.length - index,
+  ).padStart(2, "0")}`,
   displayDate: project.year,
   category: project.category,
   href: project.href,
+  external: true,
 }));
 
 const noteEntries = notes.map((note) => ({
@@ -22,11 +21,14 @@ const noteEntries = notes.map((note) => ({
   type: "Note",
   title: note.title,
   date: note.isoDate,
+  year: Number(note.isoDate.slice(0, 4)),
+  sortKey: note.isoDate,
   displayDate: note.date,
   category: note.category,
   href: note.href,
+  external: false,
 }));
 
 export const archiveEntries = [...projectEntries, ...noteEntries].sort(
-  (a, b) => new Date(b.date) - new Date(a.date),
+  (a, b) => b.sortKey.localeCompare(a.sortKey),
 );
