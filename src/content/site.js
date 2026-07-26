@@ -17,4 +17,30 @@ export const siteContent = {
     image: null,
     imageAlt: "Replace with a personal portrait",
   },
+  about: {
+    eyebrow: "About · Toronto",
+    title: "A software engineer with a fondness for thoughtful details.",
+    introduction:
+      "I am interested in the space where useful technology, careful observation, and everyday life meet. I like making complicated things feel clearer and keeping track of what I learn along the way.",
+    image: null,
+    imageAlt: "Replace with a personal portrait or candid photograph",
+    career:
+      "This is a placeholder for a concise career story: the kinds of teams you have worked with, the problems you care about, and how your practice has evolved. It should read like a considered introduction rather than a résumé.",
+    perspective:
+      "Outside of project work, I use this site to collect questions, experiments, small discoveries, and notes from whatever currently has my attention.",
+    details: [
+      {
+        label: "Learning",
+        value: "A subject or practice you are exploring",
+      },
+      {
+        label: "Interested in",
+        value: "Thoughtful products, human systems, and useful ideas",
+      },
+      {
+        label: "Away from my desk",
+        value: "A few personal interests will live here",
+      },
+    ],
+  },
 };

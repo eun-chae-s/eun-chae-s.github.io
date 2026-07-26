@@ -3,6 +3,7 @@
 @import "./global.css";
 @import "./navigation.css";
 @import "./home.css";
+@import "./pages.css";
 @import "./footer.css";
 
 @media (prefers-reduced-motion: reduce) {

@@ -1,27 +1,21 @@
 import { Route, Routes } from "react-router-dom";
 import { PageShell } from "../components/layout/PageShell";
+import { AboutPage } from "../pages/AboutPage";
+import { ArchivePage } from "../pages/ArchivePage";
 import { EditorialHomePage } from "../pages/EditorialHomePage";
+import { NotesPage } from "../pages/NotesPage";
 import { PlaceholderPage } from "../pages/PlaceholderPage";
-
-const routes = [
-  { path: "/work", eyebrow: "Selected practice", title: "Work" },
-  { path: "/notes", eyebrow: "Ideas & observations", title: "Notes" },
-  { path: "/about", eyebrow: "A little more", title: "About" },
-  { path: "/archive", eyebrow: "Everything, in order", title: "Archive" },
-];
+import { WorkPage } from "../pages/WorkPage";
 
 export default function App() {
   return (
     <PageShell>
       <Routes>
         <Route path="/" element={<EditorialHomePage />} />
-        {routes.map((route) => (
-          <Route
-            key={route.path}
-            path={route.path}
-            element={<PlaceholderPage {...route} />}
-          />
-        ))}
+        <Route path="/work" element={<WorkPage />} />
+        <Route path="/notes" element={<NotesPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/archive" element={<ArchivePage />} />
         <Route
           path="*"
           element={

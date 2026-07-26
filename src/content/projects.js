@@ -13,6 +13,7 @@ export const projects = [
     href: "/work",
     featured: true,
     accent: "sage",
+    status: "Selected work",
   },
   {
     number: "02",
@@ -28,6 +29,7 @@ export const projects = [
     href: "/work",
     featured: false,
     accent: "blue",
+    status: "Selected work",
   },
   {
     number: "03",
@@ -43,5 +45,6 @@ export const projects = [
     href: "/work",
     featured: false,
     accent: "blush",
+    status: "Experiment",
   },
 ];
