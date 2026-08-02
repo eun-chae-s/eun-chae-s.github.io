@@ -9,8 +9,21 @@ export const notes = [
     excerpt:
       "On figuring out what feels like me, and slowly turning those thoughts into something other people can actually see.",
     href: "/notes/personal-branding-for-myself",
-    image: "https://d3ci2dhksvo0zi.cloudfront.net/images/articles/personal-branding-for-myself.jpeg",
+    image:
+      "https://d3ci2dhksvo0zi.cloudfront.net/images/articles/personal-branding-for-myself.jpeg",
     imageAlt:
       "A sunny waterfront path overlooking Lake Ontario and the Toronto skyline",
+  },
+  {
+    slug: "one-week-after-rebranding",
+    title: "A week after rebranding my website",
+    date: "August 02, 2026",
+    isoDate: "2026-08-02",
+    category: "Reflection",
+    readingTime: "1 min",
+    excerpt: "Just a quick thought, one week later",
+    href: "/notes/one-week-after-rebranding",
+    image: null,
+    imageAlt: null,
   },
 ];
