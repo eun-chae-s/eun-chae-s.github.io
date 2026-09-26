@@ -26,4 +26,17 @@ export const notes = [
     image: null,
     imageAlt: null,
   },
+  {
+    slug: "a-rabbit-hole",
+    title: "A New Rabbit Hole: AI and Cognitive Science",
+    date: "September 26, 2026",
+    isoDate: "2026-09-26",
+    category: "Learning",
+    readingTime: "2 min",
+    excerpt:
+      "A small note on why I’ve started reading about AI, cognitive offloading, and what it might mean for how I work and learn.",
+    href: "/notes/a-rabbit-hole",
+    image: null,
+    imageAlt: null,
+  },
 ];
