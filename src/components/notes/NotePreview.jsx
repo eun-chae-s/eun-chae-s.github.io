@@ -1,3 +1,5 @@
+import { InlineMarkdown } from "../editorial/InlineMarkdown";
+
 export function NotePreview({ note, number }) {
   return (
     <li className="note-preview">
@@ -5,7 +7,9 @@ export function NotePreview({ note, number }) {
         <span className="note-preview__number eyebrow">{number}</span>
         <div className="note-preview__title">
           <h3>{note.title}</h3>
-          <p>{note.excerpt}</p>
+          <p>
+            <InlineMarkdown>{note.excerpt}</InlineMarkdown>
+          </p>
         </div>
         <div className="note-preview__meta eyebrow">
           <span>{note.category}</span>

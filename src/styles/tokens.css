@@ -11,6 +11,8 @@
 
   --font-serif: "Newsreader", "Iowan Old Style", "Palatino Linotype",
     "Book Antiqua", Georgia, serif;
+  --font-serif-ko: "Newsreader", "Noto Serif KR", "Apple SD Gothic Neo",
+    "Malgun Gothic", serif;
   --font-sans: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
 

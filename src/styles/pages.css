@@ -167,6 +167,25 @@
   line-height: 0.86;
 }
 
+.article-page:lang(ko) .article-header h1,
+.article-page:lang(ko) .article-header__excerpt,
+.article-page:lang(ko) .article-aside > p:nth-child(2),
+.article-page:lang(ko) .article-aside__note,
+.article-page:lang(ko) .article-body,
+.article-page:lang(ko) .article-footer p {
+  font-family: var(--font-serif-ko);
+  word-break: keep-all;
+}
+
+.article-page:lang(ko) .article-header h1 {
+  letter-spacing: -0.045em;
+  line-height: 1.08;
+}
+
+.article-page:lang(ko) .article-body {
+  line-height: 1.9;
+}
+
 .article-header__excerpt {
   grid-column: 3 / 8;
   margin-top: var(--space-5);

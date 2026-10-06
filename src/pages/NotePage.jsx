@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import { Link, useParams } from "react-router-dom";
+import { InlineMarkdown } from "../components/editorial/InlineMarkdown";
 import { articleRegistry } from "../content/articleRegistry";
 import { notes } from "../content/notes";
 import { PlaceholderPage } from "./PlaceholderPage";
@@ -28,14 +29,16 @@ export function NotePage() {
   }
 
   return (
-    <main id="main-content" className="article-page">
+    <main id="main-content" className="article-page" lang={note.lang || "en"}>
       <header className="article-header editorial-grid">
         <Link className="article-header__back text-link" to="/notes">
           ← All notes
         </Link>
         <p className="article-header__category eyebrow">{note.category}</p>
         <h1>{note.title}</h1>
-        <p className="article-header__excerpt">{note.excerpt}</p>
+        <p className="article-header__excerpt">
+          <InlineMarkdown>{note.excerpt}</InlineMarkdown>
+        </p>
         <div className="article-header__meta eyebrow">
           <time dateTime={note.isoDate}>{note.date}</time>
           {note.readingTime ? <span>{note.readingTime} read</span> : null}
